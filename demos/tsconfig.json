@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "checkJs": true,
+    "skipLibCheck": false,
+    "jsx": "preserve",
+    "outDir": "./build",
+    "rootDir": "./",
+    "noEmit": true,
+    "isolatedModules": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "noImplicitAny": false,
+    "forceConsistentCasingInFileNames": true,
+    "esModuleInterop": true,
+    "baseUrl": "./",
+    "allowUmdGlobalAccess": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "api": ["./api"],
+      "src": ["./src"]
+    }
+  }
+}

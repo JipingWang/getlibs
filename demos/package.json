@@ -1,0 +1,40 @@
+{
+  "name": "getlibs-demos",
+  "version": "0.1.1",
+  "description": "Demos using getlibs.",
+  "main": "index.js",
+  "scripts": {},
+  "devDependencies": {
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/systemjs": "0.20.6",
+    "systemjs": "^0.20.12"
+  },
+  "keywords": [
+    "systemjs",
+    "unpkg",
+    "typescript",
+    "javascript",
+    "angular",
+    "react",
+    "vue"
+  ],
+  "author": "webmaster@activewidgets.com",
+  "license": "MIT",
+  "eslintConfig": {
+    "parserOptions": 2017,
+    "extends": "",
+    "globals": {
+      "Promise": true,
+      "System": true,
+      "SystemJS": true,
+      "define": true,
+      "config": true
+    },
+    "env": {
+      "es6": true,
+      "browser": true
+    }
+  },
+  "homepage": "http://getlibs.com"
+}
