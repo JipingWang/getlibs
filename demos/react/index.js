@@ -1,4 +1,4 @@
-const appUrl = `./app`
+const appUrl = `./App`
 
 window.addEventListener('DOMContentLoaded', event => {
   if (typeof appUrl !== 'string') {
@@ -12,6 +12,7 @@ window.addEventListener('DOMContentLoaded', event => {
     const [React, ReactDOM, AppModule] = modules
     const config = SystemJS.getConfig()
     console.info({React: React.version, SystemJS: System.version, TypeScript: config.map.typescript, config,})
-    ReactDOM.render(React.createElement(AppModule.default), document.querySelector('#root'))
+    const appId=1;
+    ReactDOM.render(React.createElement(AppModule.default,{id:appId}), document.querySelector('#root'))
   })
 })
