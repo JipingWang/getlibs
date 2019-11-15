@@ -10,7 +10,7 @@ interface State {
 export default function App(props: AppProps) {
   const initState: State = {cnt:0}
   const [state, setState] = React.useState<State>(initState)
-  //console.log(state.msg?.length)
+  console.log(state.msg?.length)
   // return React.createElement('div', {'id': 'id1'},'content')
   return(
     <div>
