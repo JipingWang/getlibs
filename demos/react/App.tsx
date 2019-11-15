@@ -1,9 +1,10 @@
 import React from 'react'
 
-export default function App(){
-  return(
-    <div><header>React using systemjs</header>
-    <main>ver: {React.version}</main>
+export default function App() {
+  return (
+    <div>
+      <header>Live React App with SystemJS</header>
+      <main>ver: {React.version}</main>
     </div>
   )
 }

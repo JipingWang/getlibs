@@ -5,7 +5,7 @@ window.addEventListener('DOMContentLoaded', event => {
     console.warn('no appUrl')
     return
   }
-/**@ts-ignore */
+//@ts-ignore
   let props = (typeof appProps === 'undefined') ? {} : appProps
 
   Promise.all(['react', 'react-dom', appUrl].map(x => SystemJS.import(x))).then(modules => {
